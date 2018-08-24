@@ -7,6 +7,7 @@ html {
 body {
   margin: 0;
   background-color: #192833;
+  color: #fff;
 }
 #home-map {
   margin: 0 auto;
@@ -127,7 +128,7 @@ body {
 
 .star {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   transform: scale(.5);
 }
 #star1 {
@@ -253,8 +254,18 @@ h5{
   font-size: 48px;
   padding: 30px 0 0 0;
 }
-.projects .row {
-  margin-bottom: 30px;
+.about-container h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+}
+.about-container p {
+  padding: 5px;
+  margin: 0 auto;
+}
+.projects .main-row {
+  margin-bottom: 70px;
 }
 .projects h2 {
   margin: 0;
@@ -263,4 +274,89 @@ h5{
 }
 .projects a {
   color: #fff;
+}
+.about-container {
+  padding: 50px;
+  text-align: center;
+}
+#aboutimage {
+  width: 300px;
+  height: 300px;
+  object-position: center;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.about-small-icon {
+  width: 50px;
+  height: 50px;
+  object-position: center;
+  margin-top: 30px;
+  object-fit: cover;
+}
+footer {
+  background: #192833;
+  margin-top: 30px;
+  padding: 30px;
+  color: #D0CCD0;
+  text-align: center;
+  bottom: 0;
+}
+footer p {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.contact-info .fa {
+    font-size: 24px;
+    margin: 5px;
+    position: relative;
+}
+.contact-info {
+  /* width: 150px; */
+  /* height: 50px; */
+  display: inline-flex;
+  justify-content: space-between;
+}
+.project-row {
+  /* height: 30px; */
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.project-row .fa {
+  align-items: baseline;
+  margin: 0;
+  height: 30px;
+}
+.col-8, .col-8 a, .col-8 .project-row {
+  margin: 0 auto;
+}
+.science-img {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+.col-8 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .line1, .line2, .line3 {
+      display: none;
+    }
+    .toprow, .bottomrow, .middlerow {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+    }
+    #homepage {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    body {
+      width: 200%;
+      margin: 0 auto;
+      margin-left: 50%;
+    }
 }

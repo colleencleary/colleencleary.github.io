@@ -19,9 +19,9 @@ class Header extends Component {
               this.props.toggleAbout()}}>About</a>
           <a className="nav-link active" onClick={()=>{
               this.props.toggleProjects()}}>Projects</a>
-          <a className="nav-link active" href="/assets/ColleenCleary_resume.pdf">Resume</a>
+          <a className="nav-link active" target="_blank" href="https://drive.google.com/file/d/1rW12_z9n3CD7wcd9-AGNARm_f79uW-eg/view">Resume</a>
           <a className="nav-link active" onClick={()=>{
-              this.props.toggleScience()}}>Science</a>
+              this.props.toggleScience()}}>Astronomy Research</a>
           <a className="nav-link contact active" onClick={()=>{
               this.props.toggleContact()}}>Contact</a>
         </nav>

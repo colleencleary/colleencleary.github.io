@@ -4,20 +4,11 @@ class HomeMap extends Component {
   render() {
     return (
       <div>
-      
+
       <div className="line1"></div>
       <div className="line1"></div>
       <div className="line2"></div>
       <div className="line3"></div>
-      <img className="star" id="star1" src="/assets/blue_star.png" alt="star" />
-      <img className="star" id="star2" src="/assets/blue_star.png" alt="star" />
-      <img className="star" id="star3" src="/assets/blue_star.png" alt="star" />
-      <img className="star" id="star4" src="/assets/yellow_star.png" alt="star" />
-      <img className="star" id="star5" src="/assets/yellow_star.png" alt="star" />
-      <img className="star" id="star6" src="/assets/yellow_star.png" alt="star" />
-      <img className="star" id="star7" src="/assets/gray_star.png" alt="star" />
-      <img className="star" id="star8" src="/assets/gray_star.png" alt="star" />
-      <img className="star" id="star9" src="/assets/gray_star.png" alt="star" />
       <div className="content container" id="homepage">
       <div id="home-map" className="justify-center">
         <div className="toprow row justify-space-between">
@@ -40,7 +31,7 @@ class HomeMap extends Component {
                 this.props.toggleScience()}} className="tip" id="science-icon" src="/assets/galaxy.png" alt="Science"/>
           </div>
           <div className="icon col tip">
-            <a href="/assets/ColleenCleary_resume.pdf"><img id="resume-icon" className="pull-right tip" src="/assets/saturn.png" alt="Resume"/></a>
+            <a target="_blank" href="https://drive.google.com/file/d/1rW12_z9n3CD7wcd9-AGNARm_f79uW-eg/view"><img id="resume-icon" className="pull-right tip" src="/assets/saturn.png" alt="Resume"/></a>
           </div>
         </div>
         </div>

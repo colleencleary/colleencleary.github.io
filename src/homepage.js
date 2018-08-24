@@ -86,6 +86,15 @@ toggleContact(){
       <div>
       <i onClick={()=>{
           this.toggleNav()}}className="fa fa-bars nav-btn"></i>
+          <img className="star" id="star1" src="/assets/blue_star.png" alt="star" />
+          <img className="star" id="star2" src="/assets/blue_star.png" alt="star" />
+          <img className="star" id="star3" src="/assets/blue_star.png" alt="star" />
+          <img className="star" id="star4" src="/assets/yellow_star.png" alt="star" />
+          <img className="star" id="star5" src="/assets/yellow_star.png" alt="star" />
+          <img className="star" id="star6" src="/assets/yellow_star.png" alt="star" />
+          <img className="star" id="star7" src="/assets/gray_star.png" alt="star" />
+          <img className="star" id="star8" src="/assets/gray_star.png" alt="star" />
+          <img className="star" id="star9" src="/assets/gray_star.png" alt="star" />
       { this.state.navIsVisible ?
         <Header toggleHome={this.toggleHome}
           toggleAbout={this.toggleAbout}
@@ -121,6 +130,17 @@ toggleContact(){
 
         { this.state.scienceIsVisible ?
           <Science /> : ''}
+
+          <footer>
+            <p>&copy; 2018 | Colleen Cleary</p>
+            <div className="contact-info">
+                <a href="mailto:cleary.ce@gmail.com" target="_blank"><i className="fa fa-envelope"></i></a>
+                <a href="https://twitter.com/marsrollherover?lang=en" target="_blank"><i className="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/colleen-cleary/" target="_blank"><i className="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/colleencleary" target="_blank"><i className="fa fa-github-alt"></i></a>
+
+            </div>
+          </footer>
       </div>
     );
   }
