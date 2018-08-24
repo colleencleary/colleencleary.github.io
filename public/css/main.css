@@ -281,6 +281,8 @@ h5{
 }
 .col-7 .fa {
   position: relative;
+  font-size: 18px;
+  padding-right: 3px;;
 }
 .projects .main-row {
   margin-bottom: 70px;
