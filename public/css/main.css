@@ -203,6 +203,9 @@ nav .fa {
 img {
   box-shadow: 0 0 10px;
 }
+#home-map img {
+  box-shadow: 0 0 10px;
+}
 .nav {
   box-shadow: 0 0 10px;
   background: #D0CCD0;
