@@ -309,12 +309,14 @@ h5{
   object-fit: cover;
 }
 footer {
+  width: 100%;
   background: #192833;
   margin-top: 30px;
   padding: 30px;
   color: #D0CCD0;
   text-align: center;
   bottom: 0;
+  position:absolute;
 }
 footer p {
   font-family: 'Caveat', cursive;
