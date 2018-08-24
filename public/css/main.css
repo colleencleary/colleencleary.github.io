@@ -200,7 +200,11 @@ nav .fa {
   /* padding-top: -20px;
   padding-left: -20px; */
 }
+img {
+  box-shadow: 0 0 10px;
+}
 .nav {
+  box-shadow: 0 0 10px;
   background: #D0CCD0;
   color: #192833;
   position: absolute;
