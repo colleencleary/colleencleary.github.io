@@ -201,11 +201,18 @@ nav .fa {
   padding-left: -20px; */
 }
 img {
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px #000;
 }
-#home-map img {
-  box-shadow: 0 0 10px;
+#home-map img, .star, #profile {
+  box-shadow: none;
 }
+/* #home-map img:hover {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 30px;
+  box-shadow: 0 0 10px #fff;
+} */
 .nav {
   box-shadow: 0 0 10px;
   background: #D0CCD0;
