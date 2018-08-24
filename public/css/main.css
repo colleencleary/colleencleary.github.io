@@ -293,6 +293,9 @@ h5{
   padding: 50px;
   text-align: center;
 }
+.about-container p {
+  font-size: 1.1em;
+}
 #aboutimage {
   width: 300px;
   height: 300px;
@@ -307,6 +310,7 @@ h5{
   object-position: center;
   margin-top: 30px;
   object-fit: cover;
+  box-shadow: none;
 }
 footer {
   width: 100%;
